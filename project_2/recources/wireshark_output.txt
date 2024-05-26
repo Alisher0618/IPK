@@ -1,0 +1,422 @@
+No.     Time           Source                Destination           Protocol Length Info
+     78 11.794062006   127.0.0.1             127.0.0.1             IPK24-CHAT 73     C → Server | BYE
+
+Frame 78: 73 bytes on wire (584 bits), 73 bytes captured (584 bits) on interface any, id 0
+Linux cooked capture v1
+Internet Protocol Version 4, Src: 127.0.0.1, Dst: 127.0.0.1
+Transmission Control Protocol, Src Port: 38232, Dst Port: 4567, Seq: 1, Ack: 1, Len: 5
+IPK24-CHAT Protocol, Type: bye, Offset: 0, Length: 5
+
+No.     Time           Source                Destination           Protocol Length Info
+     81 11.800555943   127.0.0.1             127.0.0.1             IPK24-CHAT 74     Server → C | ID=0, Type=msg, DisplayName=Server, Content=abobus left default
+
+Frame 81: 74 bytes on wire (592 bits), 74 bytes captured (592 bits) on interface any, id 0
+Linux cooked capture v1
+Internet Protocol Version 4, Src: 127.0.0.1, Dst: 127.0.0.1
+User Datagram Protocol, Src Port: 21924, Dst Port: 42069
+IPK24-CHAT Protocol, ID: 0, Type: msg
+
+No.     Time           Source                Destination           Protocol Length Info
+     82 11.800599502   127.0.0.1             127.0.0.1             IPK24-CHAT 47     C → Server | Type=confirm, RefID=0
+
+Frame 82: 47 bytes on wire (376 bits), 47 bytes captured (376 bits) on interface any, id 0
+Linux cooked capture v1
+Internet Protocol Version 4, Src: 127.0.0.1, Dst: 127.0.0.1
+User Datagram Protocol, Src Port: 42069, Dst Port: 21924
+IPK24-CHAT Protocol, ID: 0, Type: confirm
+
+No.     Time           Source                Destination           Protocol Length Info
+     95 13.657090635   127.0.0.1             127.0.0.1             IPK24-CHAT 47     C → Server | ID=1, Type=bye
+
+Frame 95: 47 bytes on wire (376 bits), 47 bytes captured (376 bits) on interface any, id 0
+Linux cooked capture v1
+Internet Protocol Version 4, Src: 127.0.0.1, Dst: 127.0.0.1
+User Datagram Protocol, Src Port: 42069, Dst Port: 21924
+IPK24-CHAT Protocol, ID: 1, Type: bye
+
+No.     Time           Source                Destination           Protocol Length Info
+     96 13.658147880   127.0.0.1             127.0.0.1             IPK24-CHAT 47     Server → C | Type=confirm, RefID=1
+
+Frame 96: 47 bytes on wire (376 bits), 47 bytes captured (376 bits) on interface any, id 0
+Linux cooked capture v1
+Internet Protocol Version 4, Src: 127.0.0.1, Dst: 127.0.0.1
+User Datagram Protocol, Src Port: 21924, Dst Port: 42069
+IPK24-CHAT Protocol, ID: 1, Type: confirm
+
+No.     Time           Source                Destination           Protocol Length Info
+    150 48.560248008   127.0.0.1             127.0.0.1             IPK24-CHAT 106    C → Server | AUTH xmazhi00 AS abobus USING secret
+
+Frame 150: 106 bytes on wire (848 bits), 106 bytes captured (848 bits) on interface any, id 0
+Linux cooked capture v1
+Internet Protocol Version 4, Src: 127.0.0.1, Dst: 127.0.0.1
+Transmission Control Protocol, Src Port: 53364, Dst Port: 4567, Seq: 1, Ack: 1, Len: 38
+IPK24-CHAT Protocol, Type: auth, Offset: 0, Length: 38
+
+No.     Time           Source                Destination           Protocol Length Info
+    152 48.561599337   127.0.0.1             127.0.0.1             IPK24-CHAT 95     Server → C | REPLY OK IS Auth success.
+
+Frame 152: 95 bytes on wire (760 bits), 95 bytes captured (760 bits) on interface any, id 0
+Linux cooked capture v1
+Internet Protocol Version 4, Src: 127.0.0.1, Dst: 127.0.0.1
+Transmission Control Protocol, Src Port: 4567, Dst Port: 53364, Seq: 1, Ack: 39, Len: 27
+IPK24-CHAT Protocol, Type: reply, Offset: 0, Length: 27
+
+No.     Time           Source                Destination           Protocol Length Info
+    158 49.562893436   127.0.0.1             127.0.0.1             IPK24-CHAT 110    Server → C | MSG FROM Server IS abobus joined default
+
+Frame 158: 110 bytes on wire (880 bits), 110 bytes captured (880 bits) on interface any, id 0
+Linux cooked capture v1
+Internet Protocol Version 4, Src: 127.0.0.1, Dst: 127.0.0.1
+Transmission Control Protocol, Src Port: 4567, Dst Port: 53364, Seq: 28, Ack: 39, Len: 42
+IPK24-CHAT Protocol, Type: msg, Offset: 0, Length: 42
+
+No.     Time           Source                Destination           Protocol Length Info
+    160 50.551711148   127.0.0.1             127.0.0.1             IPK24-CHAT 75     C → Server | ID=0, Type=auth, UserName=username, DisplayName=displayname, Secret=secret
+
+Frame 160: 75 bytes on wire (600 bits), 75 bytes captured (600 bits) on interface any, id 0
+Linux cooked capture v1
+Internet Protocol Version 4, Src: 127.0.0.1, Dst: 127.0.0.1
+User Datagram Protocol, Src Port: 49913, Dst Port: 4567
+IPK24-CHAT Protocol, ID: 0, Type: auth
+
+No.     Time           Source                Destination           Protocol Length Info
+    161 50.551788556   127.0.0.1             127.0.0.1             IPK24-CHAT 47     Server → C | Type=confirm, RefID=0
+
+Frame 161: 47 bytes on wire (376 bits), 47 bytes captured (376 bits) on interface any, id 0
+Linux cooked capture v1
+Internet Protocol Version 4, Src: 127.0.0.1, Dst: 127.0.0.1
+User Datagram Protocol, Src Port: 4567, Dst Port: 49913
+IPK24-CHAT Protocol, ID: 0, Type: confirm
+
+No.     Time           Source                Destination           Protocol Length Info
+    162 50.551809206   127.0.0.1             127.0.0.1             IPK24-CHAT 64     Server → C | ID=0, Type=reply, Result=OK, RefID=0, Content=Auth success.
+
+Frame 162: 64 bytes on wire (512 bits), 64 bytes captured (512 bits) on interface any, id 0
+Linux cooked capture v1
+Internet Protocol Version 4, Src: 127.0.0.1, Dst: 127.0.0.1
+User Datagram Protocol, Src Port: 63938, Dst Port: 49913
+IPK24-CHAT Protocol, ID: 0, Type: reply
+
+No.     Time           Source                Destination           Protocol Length Info
+    163 50.551830933   127.0.0.1             127.0.0.1             IPK24-CHAT 47     C → Server | Type=confirm, RefID=0
+
+Frame 163: 47 bytes on wire (376 bits), 47 bytes captured (376 bits) on interface any, id 0
+Linux cooked capture v1
+Internet Protocol Version 4, Src: 127.0.0.1, Dst: 127.0.0.1
+User Datagram Protocol, Src Port: 49913, Dst Port: 63938
+IPK24-CHAT Protocol, ID: 0, Type: confirm
+
+No.     Time           Source                Destination           Protocol Length Info
+    164 51.556631293   127.0.0.1             127.0.0.1             IPK24-CHAT 81     Server → C | ID=1, Type=msg, DisplayName=Server, Content=displayname joined default
+
+Frame 164: 81 bytes on wire (648 bits), 81 bytes captured (648 bits) on interface any, id 0
+Linux cooked capture v1
+Internet Protocol Version 4, Src: 127.0.0.1, Dst: 127.0.0.1
+User Datagram Protocol, Src Port: 63938, Dst Port: 49913
+IPK24-CHAT Protocol, ID: 1, Type: msg
+
+No.     Time           Source                Destination           Protocol Length Info
+    165 51.556774821   127.0.0.1             127.0.0.1             IPK24-CHAT 115    Server → C | MSG FROM Server IS displayname joined default
+
+Frame 165: 115 bytes on wire (920 bits), 115 bytes captured (920 bits) on interface any, id 0
+Linux cooked capture v1
+Internet Protocol Version 4, Src: 127.0.0.1, Dst: 127.0.0.1
+Transmission Control Protocol, Src Port: 4567, Dst Port: 53364, Seq: 70, Ack: 39, Len: 47
+IPK24-CHAT Protocol, Type: msg, Offset: 0, Length: 47
+
+No.     Time           Source                Destination           Protocol Length Info
+    167 51.557400847   127.0.0.1             127.0.0.1             IPK24-CHAT 47     C → Server | Type=confirm, RefID=1
+
+Frame 167: 47 bytes on wire (376 bits), 47 bytes captured (376 bits) on interface any, id 0
+Linux cooked capture v1
+Internet Protocol Version 4, Src: 127.0.0.1, Dst: 127.0.0.1
+User Datagram Protocol, Src Port: 49913, Dst Port: 63938
+IPK24-CHAT Protocol, ID: 1, Type: confirm
+
+No.     Time           Source                Destination           Protocol Length Info
+    168 56.552059642   127.0.0.1             127.0.0.1             IPK24-CHAT 94     C → Server | MSG FROM abobus IS hello
+
+Frame 168: 94 bytes on wire (752 bits), 94 bytes captured (752 bits) on interface any, id 0
+Linux cooked capture v1
+Internet Protocol Version 4, Src: 127.0.0.1, Dst: 127.0.0.1
+Transmission Control Protocol, Src Port: 53364, Dst Port: 4567, Seq: 39, Ack: 117, Len: 26
+IPK24-CHAT Protocol, Type: msg, Offset: 0, Length: 26
+
+No.     Time           Source                Destination           Protocol Length Info
+    169 56.552629574   127.0.0.1             127.0.0.1             IPK24-CHAT 60     Server → C | ID=0, Type=msg, DisplayName=abobus, Content=hello
+
+Frame 169: 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface any, id 0
+Linux cooked capture v1
+Internet Protocol Version 4, Src: 127.0.0.1, Dst: 127.0.0.1
+User Datagram Protocol, Src Port: 63938, Dst Port: 49913
+IPK24-CHAT Protocol, ID: 0, Type: msg
+
+No.     Time           Source                Destination           Protocol Length Info
+    170 56.552681606   127.0.0.1             127.0.0.1             IPK24-CHAT 47     C → Server | Type=confirm, RefID=0
+
+Frame 170: 47 bytes on wire (376 bits), 47 bytes captured (376 bits) on interface any, id 0
+Linux cooked capture v1
+Internet Protocol Version 4, Src: 127.0.0.1, Dst: 127.0.0.1
+User Datagram Protocol, Src Port: 49913, Dst Port: 63938
+IPK24-CHAT Protocol, ID: 0, Type: confirm
+
+No.     Time           Source                Destination           Protocol Length Info
+    172 59.088896872   127.0.0.1             127.0.0.1             IPK24-CHAT 63     C → Server | ID=1, Type=msg, DisplayName=displayname, Content=hi!
+
+Frame 172: 63 bytes on wire (504 bits), 63 bytes captured (504 bits) on interface any, id 0
+Linux cooked capture v1
+Internet Protocol Version 4, Src: 127.0.0.1, Dst: 127.0.0.1
+User Datagram Protocol, Src Port: 49913, Dst Port: 63938
+IPK24-CHAT Protocol, ID: 1, Type: msg
+
+No.     Time           Source                Destination           Protocol Length Info
+    173 59.089969011   127.0.0.1             127.0.0.1             IPK24-CHAT 47     Server → C | Type=confirm, RefID=1
+
+Frame 173: 47 bytes on wire (376 bits), 47 bytes captured (376 bits) on interface any, id 0
+Linux cooked capture v1
+Internet Protocol Version 4, Src: 127.0.0.1, Dst: 127.0.0.1
+User Datagram Protocol, Src Port: 63938, Dst Port: 49913
+IPK24-CHAT Protocol, ID: 1, Type: confirm
+
+No.     Time           Source                Destination           Protocol Length Info
+    174 59.089993330   127.0.0.1             127.0.0.1             IPK24-CHAT 97     Server → C | MSG FROM displayname IS hi!
+
+Frame 174: 97 bytes on wire (776 bits), 97 bytes captured (776 bits) on interface any, id 0
+Linux cooked capture v1
+Internet Protocol Version 4, Src: 127.0.0.1, Dst: 127.0.0.1
+Transmission Control Protocol, Src Port: 4567, Dst Port: 53364, Seq: 117, Ack: 65, Len: 29
+IPK24-CHAT Protocol, Type: msg, Offset: 0, Length: 29
+
+No.     Time           Source                Destination           Protocol Length Info
+    176 63.124176904   127.0.0.1             127.0.0.1             IPK24-CHAT 92     C → Server | JOIN general AS abobus
+
+Frame 176: 92 bytes on wire (736 bits), 92 bytes captured (736 bits) on interface any, id 0
+Linux cooked capture v1
+Internet Protocol Version 4, Src: 127.0.0.1, Dst: 127.0.0.1
+Transmission Control Protocol, Src Port: 53364, Dst Port: 4567, Seq: 65, Ack: 146, Len: 24
+IPK24-CHAT Protocol, Type: join, Offset: 0, Length: 24
+
+No.     Time           Source                Destination           Protocol Length Info
+    178 64.125735470   127.0.0.1             127.0.0.1             IPK24-CHAT 74     Server → C | ID=0, Type=msg, DisplayName=Server, Content=abobus left default
+
+Frame 178: 74 bytes on wire (592 bits), 74 bytes captured (592 bits) on interface any, id 0
+Linux cooked capture v1
+Internet Protocol Version 4, Src: 127.0.0.1, Dst: 127.0.0.1
+User Datagram Protocol, Src Port: 63938, Dst Port: 49913
+IPK24-CHAT Protocol, ID: 0, Type: msg
+
+No.     Time           Source                Destination           Protocol Length Info
+    179 64.126273227   127.0.0.1             127.0.0.1             IPK24-CHAT 47     C → Server | Type=confirm, RefID=0
+
+Frame 179: 47 bytes on wire (376 bits), 47 bytes captured (376 bits) on interface any, id 0
+Linux cooked capture v1
+Internet Protocol Version 4, Src: 127.0.0.1, Dst: 127.0.0.1
+User Datagram Protocol, Src Port: 49913, Dst Port: 63938
+IPK24-CHAT Protocol, ID: 0, Type: confirm
+
+No.     Time           Source                Destination           Protocol Length Info
+    180 65.127182513   127.0.0.1             127.0.0.1             IPK24-CHAT 95     Server → C | REPLY OK IS Join success.
+
+Frame 180: 95 bytes on wire (760 bits), 95 bytes captured (760 bits) on interface any, id 0
+Linux cooked capture v1
+Internet Protocol Version 4, Src: 127.0.0.1, Dst: 127.0.0.1
+Transmission Control Protocol, Src Port: 4567, Dst Port: 53364, Seq: 146, Ack: 89, Len: 27
+IPK24-CHAT Protocol, Type: reply, Offset: 0, Length: 27
+
+No.     Time           Source                Destination           Protocol Length Info
+    182 66.129143039   127.0.0.1             127.0.0.1             IPK24-CHAT 110    Server → C | MSG FROM Server IS abobus joined general
+
+Frame 182: 110 bytes on wire (880 bits), 110 bytes captured (880 bits) on interface any, id 0
+Linux cooked capture v1
+Internet Protocol Version 4, Src: 127.0.0.1, Dst: 127.0.0.1
+Transmission Control Protocol, Src Port: 4567, Dst Port: 53364, Seq: 173, Ack: 89, Len: 42
+IPK24-CHAT Protocol, Type: msg, Offset: 0, Length: 42
+
+No.     Time           Source                Destination           Protocol Length Info
+    184 77.288096478   127.0.0.1             127.0.0.1             IPK24-CHAT 79     C → Server | ID=2, Type=msg, DisplayName=displayname, Content=hello from default!
+
+Frame 184: 79 bytes on wire (632 bits), 79 bytes captured (632 bits) on interface any, id 0
+Linux cooked capture v1
+Internet Protocol Version 4, Src: 127.0.0.1, Dst: 127.0.0.1
+User Datagram Protocol, Src Port: 49913, Dst Port: 63938
+IPK24-CHAT Protocol, ID: 2, Type: msg
+
+No.     Time           Source                Destination           Protocol Length Info
+    185 77.288834438   127.0.0.1             127.0.0.1             IPK24-CHAT 47     Server → C | Type=confirm, RefID=2
+
+Frame 185: 47 bytes on wire (376 bits), 47 bytes captured (376 bits) on interface any, id 0
+Linux cooked capture v1
+Internet Protocol Version 4, Src: 127.0.0.1, Dst: 127.0.0.1
+User Datagram Protocol, Src Port: 63938, Dst Port: 49913
+IPK24-CHAT Protocol, ID: 2, Type: confirm
+
+No.     Time           Source                Destination           Protocol Length Info
+    186 82.347924276   127.0.0.1             127.0.0.1             IPK24-CHAT 108    C → Server | MSG FROM abobus IS hello from general!
+
+Frame 186: 108 bytes on wire (864 bits), 108 bytes captured (864 bits) on interface any, id 0
+Linux cooked capture v1
+Internet Protocol Version 4, Src: 127.0.0.1, Dst: 127.0.0.1
+Transmission Control Protocol, Src Port: 53364, Dst Port: 4567, Seq: 89, Ack: 215, Len: 40
+IPK24-CHAT Protocol, Type: msg, Offset: 0, Length: 40
+
+No.     Time           Source                Destination           Protocol Length Info
+    188 86.112858484   127.0.0.1             127.0.0.1             IPK24-CHAT 67     C → Server | ID=3, Type=join, ChannelId=general, DisplayName=displayname
+
+Frame 188: 67 bytes on wire (536 bits), 67 bytes captured (536 bits) on interface any, id 0
+Linux cooked capture v1
+Internet Protocol Version 4, Src: 127.0.0.1, Dst: 127.0.0.1
+User Datagram Protocol, Src Port: 49913, Dst Port: 63938
+IPK24-CHAT Protocol, ID: 3, Type: join
+
+No.     Time           Source                Destination           Protocol Length Info
+    189 86.113731335   127.0.0.1             127.0.0.1             IPK24-CHAT 47     Server → C | Type=confirm, RefID=3
+
+Frame 189: 47 bytes on wire (376 bits), 47 bytes captured (376 bits) on interface any, id 0
+Linux cooked capture v1
+Internet Protocol Version 4, Src: 127.0.0.1, Dst: 127.0.0.1
+User Datagram Protocol, Src Port: 63938, Dst Port: 49913
+IPK24-CHAT Protocol, ID: 3, Type: confirm
+
+No.     Time           Source                Destination           Protocol Length Info
+    190 89.116406104   127.0.0.1             127.0.0.1             IPK24-CHAT 64     Server → C | ID=1, Type=reply, Result=OK, RefID=768, Content=Join success.
+
+Frame 190: 64 bytes on wire (512 bits), 64 bytes captured (512 bits) on interface any, id 0
+Linux cooked capture v1
+Internet Protocol Version 4, Src: 127.0.0.1, Dst: 127.0.0.1
+User Datagram Protocol, Src Port: 63938, Dst Port: 49913
+IPK24-CHAT Protocol, ID: 1, Type: reply
+
+No.     Time           Source                Destination           Protocol Length Info
+    191 89.117841055   127.0.0.1             127.0.0.1             IPK24-CHAT 47     C → Server | Type=confirm, RefID=1
+
+Frame 191: 47 bytes on wire (376 bits), 47 bytes captured (376 bits) on interface any, id 0
+Linux cooked capture v1
+Internet Protocol Version 4, Src: 127.0.0.1, Dst: 127.0.0.1
+User Datagram Protocol, Src Port: 49913, Dst Port: 63938
+IPK24-CHAT Protocol, ID: 1, Type: confirm
+
+No.     Time           Source                Destination           Protocol Length Info
+    192 90.118460068   127.0.0.1             127.0.0.1             IPK24-CHAT 80     Server → C | ID=2, Type=msg, DisplayName=Server, Content=out of bounds
+
+Frame 192: 80 bytes on wire (640 bits), 80 bytes captured (640 bits) on interface any, id 0
+Linux cooked capture v1
+Internet Protocol Version 4, Src: 127.0.0.1, Dst: 127.0.0.1
+User Datagram Protocol, Src Port: 63938, Dst Port: 49913
+IPK24-CHAT Protocol, ID: 2, Type: msg
+
+No.     Time           Source                Destination           Protocol Length Info
+    193 90.118843084   127.0.0.1             127.0.0.1             IPK24-CHAT 115    Server → C | MSG FROM Server IS displayname joined general
+
+Frame 193: 115 bytes on wire (920 bits), 115 bytes captured (920 bits) on interface any, id 0
+Linux cooked capture v1
+Internet Protocol Version 4, Src: 127.0.0.1, Dst: 127.0.0.1
+Transmission Control Protocol, Src Port: 4567, Dst Port: 53364, Seq: 215, Ack: 129, Len: 47
+IPK24-CHAT Protocol, Type: msg, Offset: 0, Length: 47
+
+No.     Time           Source                Destination           Protocol Length Info
+    195 90.119296967   127.0.0.1             127.0.0.1             IPK24-CHAT 47     C → Server | Type=confirm, RefID=2
+
+Frame 195: 47 bytes on wire (376 bits), 47 bytes captured (376 bits) on interface any, id 0
+Linux cooked capture v1
+Internet Protocol Version 4, Src: 127.0.0.1, Dst: 127.0.0.1
+User Datagram Protocol, Src Port: 49913, Dst Port: 63938
+IPK24-CHAT Protocol, ID: 2, Type: confirm
+
+No.     Time           Source                Destination           Protocol Length Info
+    200 104.230174897  127.0.0.1             127.0.0.1             IPK24-CHAT 71     C → Server | ID=4, Type=msg, DisplayName=displayname, Content=hello again
+
+Frame 200: 71 bytes on wire (568 bits), 71 bytes captured (568 bits) on interface any, id 0
+Linux cooked capture v1
+Internet Protocol Version 4, Src: 127.0.0.1, Dst: 127.0.0.1
+User Datagram Protocol, Src Port: 49913, Dst Port: 63938
+IPK24-CHAT Protocol, ID: 4, Type: msg
+
+No.     Time           Source                Destination           Protocol Length Info
+    201 104.230613123  127.0.0.1             127.0.0.1             IPK24-CHAT 47     Server → C | Type=confirm, RefID=4
+
+Frame 201: 47 bytes on wire (376 bits), 47 bytes captured (376 bits) on interface any, id 0
+Linux cooked capture v1
+Internet Protocol Version 4, Src: 127.0.0.1, Dst: 127.0.0.1
+User Datagram Protocol, Src Port: 63938, Dst Port: 49913
+IPK24-CHAT Protocol, ID: 4, Type: confirm
+
+No.     Time           Source                Destination           Protocol Length Info
+    202 104.230644094  127.0.0.1             127.0.0.1             IPK24-CHAT 105    Server → C | MSG FROM displayname IS hello again
+
+Frame 202: 105 bytes on wire (840 bits), 105 bytes captured (840 bits) on interface any, id 0
+Linux cooked capture v1
+Internet Protocol Version 4, Src: 127.0.0.1, Dst: 127.0.0.1
+Transmission Control Protocol, Src Port: 4567, Dst Port: 53364, Seq: 262, Ack: 129, Len: 37
+IPK24-CHAT Protocol, Type: msg, Offset: 0, Length: 37
+
+No.     Time           Source                Destination           Protocol Length Info
+    204 106.013225621  127.0.0.1             127.0.0.1             IPK24-CHAT 91     C → Server | MSG FROM abobus IS hi
+
+Frame 204: 91 bytes on wire (728 bits), 91 bytes captured (728 bits) on interface any, id 0
+Linux cooked capture v1
+Internet Protocol Version 4, Src: 127.0.0.1, Dst: 127.0.0.1
+Transmission Control Protocol, Src Port: 53364, Dst Port: 4567, Seq: 129, Ack: 299, Len: 23
+IPK24-CHAT Protocol, Type: msg, Offset: 0, Length: 23
+
+No.     Time           Source                Destination           Protocol Length Info
+    206 106.013855096  127.0.0.1             127.0.0.1             IPK24-CHAT 57     Server → C | ID=0, Type=msg, DisplayName=abobus, Content=hi
+
+Frame 206: 57 bytes on wire (456 bits), 57 bytes captured (456 bits) on interface any, id 0
+Linux cooked capture v1
+Internet Protocol Version 4, Src: 127.0.0.1, Dst: 127.0.0.1
+User Datagram Protocol, Src Port: 63938, Dst Port: 49913
+IPK24-CHAT Protocol, ID: 0, Type: msg
+
+No.     Time           Source                Destination           Protocol Length Info
+    207 106.014186889  127.0.0.1             127.0.0.1             IPK24-CHAT 47     C → Server | Type=confirm, RefID=0
+
+Frame 207: 47 bytes on wire (376 bits), 47 bytes captured (376 bits) on interface any, id 0
+Linux cooked capture v1
+Internet Protocol Version 4, Src: 127.0.0.1, Dst: 127.0.0.1
+User Datagram Protocol, Src Port: 49913, Dst Port: 63938
+IPK24-CHAT Protocol, ID: 0, Type: confirm
+
+No.     Time           Source                Destination           Protocol Length Info
+    208 106.972963998  127.0.0.1             127.0.0.1             IPK24-CHAT 73     C → Server | BYE
+
+Frame 208: 73 bytes on wire (584 bits), 73 bytes captured (584 bits) on interface any, id 0
+Linux cooked capture v1
+Internet Protocol Version 4, Src: 127.0.0.1, Dst: 127.0.0.1
+Transmission Control Protocol, Src Port: 53364, Dst Port: 4567, Seq: 152, Ack: 299, Len: 5
+IPK24-CHAT Protocol, Type: bye, Offset: 0, Length: 5
+
+No.     Time           Source                Destination           Protocol Length Info
+    212 107.014615026  127.0.0.1             127.0.0.1             IPK24-CHAT 74     Server → C | ID=0, Type=msg, DisplayName=Server, Content=abobus left general
+
+Frame 212: 74 bytes on wire (592 bits), 74 bytes captured (592 bits) on interface any, id 0
+Linux cooked capture v1
+Internet Protocol Version 4, Src: 127.0.0.1, Dst: 127.0.0.1
+User Datagram Protocol, Src Port: 63938, Dst Port: 49913
+IPK24-CHAT Protocol, ID: 0, Type: msg
+
+No.     Time           Source                Destination           Protocol Length Info
+    213 107.014765871  127.0.0.1             127.0.0.1             IPK24-CHAT 47     C → Server | Type=confirm, RefID=0
+
+Frame 213: 47 bytes on wire (376 bits), 47 bytes captured (376 bits) on interface any, id 0
+Linux cooked capture v1
+Internet Protocol Version 4, Src: 127.0.0.1, Dst: 127.0.0.1
+User Datagram Protocol, Src Port: 49913, Dst Port: 63938
+IPK24-CHAT Protocol, ID: 0, Type: confirm
+
+No.     Time           Source                Destination           Protocol Length Info
+    214 107.952374456  127.0.0.1             127.0.0.1             IPK24-CHAT 47     C → Server | ID=5, Type=bye
+
+Frame 214: 47 bytes on wire (376 bits), 47 bytes captured (376 bits) on interface any, id 0
+Linux cooked capture v1
+Internet Protocol Version 4, Src: 127.0.0.1, Dst: 127.0.0.1
+User Datagram Protocol, Src Port: 49913, Dst Port: 63938
+IPK24-CHAT Protocol, ID: 5, Type: bye
+
+No.     Time           Source                Destination           Protocol Length Info
+    217 108.022335155  127.0.0.1             127.0.0.1             IPK24-CHAT 47     Server → C | Type=confirm, RefID=5
+
+Frame 217: 47 bytes on wire (376 bits), 47 bytes captured (376 bits) on interface any, id 0
+Linux cooked capture v1
+Internet Protocol Version 4, Src: 127.0.0.1, Dst: 127.0.0.1
+User Datagram Protocol, Src Port: 63938, Dst Port: 49913
+IPK24-CHAT Protocol, ID: 5, Type: confirm
